@@ -1,89 +1,173 @@
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        background: linear-gradient(180deg, #fff3e0, #f8f8f8);
-        color: #333;
-    }
-    header {
-        background: linear-gradient(135deg, #b71c1c, #d32f2f);
-        color: white;
-        padding: 30px 20px;
-        text-align: center;
-    }
-    header h1 {
-        margin: 0;
-        font-size: 32px;
-    }
-    header p {
-        margin-top: 8px;
-        font-size: 16px;
-    }
-    section {
-        padding: 30px 20px;
-        max-width: 900px;
-        margin: auto;
-    }
-    .about {
-        text-align: center;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        margin-top: -20px;
-    }
-    .menu h2, .contact h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #b71c1c;
-    }
-    .menu-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 15px;
-    }
-    .menu-item {
-        background: #ffffff;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        transition: transform 0.2s;
-    }
-    .menu-item:hover {
-        transform: translateY(-4px);
-    }
-    .menu-item h3 {
-        margin: 0 0 5px 0;
-    }
-    .price {
-        font-weight: bold;
-        color: #d32f2f;
-    }
-    .contact {
-        text-align: center;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .contact a {
-        display: inline-block;
-        margin: 10px;
-        padding: 12px 20px;
-        text-decoration: none;
-        color: white;
-        border-radius: 30px;
-        font-weight: bold;
-    }
-    .wa {
-        background-color: #25D366;
-    }
-    .ig {
-        background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
-    }
-    footer {
-        background-color: #2c2c2c;
-        color: #ccc;
-        text-align: center;
-        padding: 15px;
-        font-size: 14px;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakso Ngangenin GBK</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #b71c1c;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        header p {
+            margin-top: 8px;
+            font-size: 16px;
+        }
+        section {
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .about {
+            text-align: center;
+        }
+        .menu h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .menu-item h3 {
+            margin: 0 0 5px 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #b71c1c;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 6px;
+        }
+        .wa {
+            background-color: #25D366;
+        }
+        .ig {
+            background-color: #C13584;
+        }
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bakso Ngangenin GBK</h1>
+    <p>Bakso Enak & Ngangenin di Sekitar GBK</p>
+</header>
+
+<section class="about">
+    <p>
+        Bakso Ngangenin GBK menyajikan bakso daging sapi pilihan dengan cita rasa gurih,
+        kuah segar, dan porsi memuaskan. Cocok dinikmati setelah olahraga, nonton event,
+        atau santai bersama keluarga.
+    </p>
+</section>
+
+<section class="menu">
+    <h2>🍜 Daftar Menu</h2>
+    <div class="menu-list">
+
+        <div class="menu-item">
+            <h3>Bakso Polos</h3>
+            <p>Bakso halus + mie + bihun</p>
+            <p class="price">Rp15.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Telur</h3>
+            <p>Bakso isi telur puyuh</p>
+            <p class="price">Rp18.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Urat</h3>
+            <p>Bakso urat kenyal & gurih</p>
+            <p class="price">Rp20.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Campur</h3>
+            <p>Bakso halus + urat + telur</p>
+            <p class="price">Rp25.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Jumbo</h3>
+            <p>1 bakso jumbo + pelengkap</p>
+            <p class="price">Rp25.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Beranak</h3>
+            <p>Bakso besar isi bakso kecil</p>
+            <p class="price">Rp30.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Lava Pedas</h3>
+            <p>Bakso isi sambal pedas</p>
+            <p class="price">Rp30.000</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Bakso Iga</h3>
+            <p>Bakso dengan iga sapi empuk</p>
+            <p class="price">Rp35.000</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>📲 Pesan Online</h2>
+    <p>Pesan sekarang melalui WhatsApp atau Instagram kami</p>
+
+    <!-- GANTI NOMOR WA DI BAWAH INI -->
+    <a class="wa" href="https://wa.me/6281234567890" target="_blank">
+        Pesan via WhatsApp
+    </a>
+
+    <a class="ig" href="https://instagram.com/BaksoNgangeninGBK" target="_blank">
+        Instagram @BaksoNgangeninGBK
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Bakso Ngangenin GBK | Jakarta</p>
+</footer>
+
+</body>
+</html>
